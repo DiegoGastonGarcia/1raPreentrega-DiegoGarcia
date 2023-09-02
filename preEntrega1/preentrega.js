@@ -52,9 +52,6 @@ do {
             
                     }
                 }
-
-        
-
             break   
             } 
         }else {break}
