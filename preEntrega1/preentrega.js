@@ -46,7 +46,7 @@ do {
                     for ( let i = 5;  i<=25; i+=5){
                         let dmgRompeNueces = rompeNueces + i
                         if (debuffED){
-                            dmgRompeNueces = (rompeNueces + i) * 1.1
+                            dmgRompeNueces = (parseInt(rompeNueces)+ i) * 1.1
                         }
                         console.log(`El daño del proximo rompenueces es de ${dmgRompeNueces}`)
             
